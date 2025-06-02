@@ -9,3 +9,4 @@
     - copy the content of file
     - \$ docker-compose up --build
 - highly recommend to use docker compose approach
+- NOTE: There is node_module installed in the host-machine (local machine), as if this nestjs-app is running without node installed in host machine. The node_module installation happens in docker image layer
