@@ -1,0 +1,6 @@
+services:
+  nest-app:
+    image: nestjs-img-api
+    container_name: nest-api-test-cont
+    ports:
+      - '3000:3000'
